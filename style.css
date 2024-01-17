@@ -73,6 +73,8 @@ p {
   color: #2e2e2e;
 }
 
+/* # sticky Nav bars */
+
 nav a {
   color: var(--color-link-pink);
   text-decoration: none;
@@ -274,6 +276,7 @@ header img {
   font-size: 1.9rem;
   color: var(--color-headline-pink);
   letter-spacing: 0.5rem;
+  padding-top: 6rem;
 }
 .inspiration h3 {
   font-size: 2.4rem;
@@ -322,4 +325,18 @@ video {
   flex-direction: column;
   justify-content: center;
   gap: 3rem;
+}
+
+/* # Subscribe & Contact section */
+
+.subscribe-and-contact {
+  background-image: url(./assets/img/section-composition4.jpg);
+  background-position: center;
+  background-size: cover;
+
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  z-index: -1;
 }
